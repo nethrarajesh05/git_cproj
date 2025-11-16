@@ -2,13 +2,14 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, sum = 0;
+    int a, b, c, sum = 0;
   
   	// Read two numbers from the user
     printf("Enter two integers: ");
-    scanf("%d %d", &a, &b);
+    scanf("%d %d", &a, &b , &c);
 
-    // Calculate the addition of a and b
+    // Calculate the addition of a and b 
+//this is intergater addition
     // using '+' operator
     sum = a + b;
 
